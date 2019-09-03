@@ -3,7 +3,7 @@ KEGG-Decoder_meta
 ### Description ###
 Designed to parse through a KEGG-Koala outputs (including blastKOALA, ghostKOALA, KOFAMSCAN) to determine the relative abundance of various metabolic pathways in metagenomes.
 
-* Notably, our `KEGG-decoder_meta.py` was rewrote according to Graham's [KEGG-Decoder](https://github.com/bjtully/BioData/tree/master/KEGGDecoder)
+* **Notably, our `KEGG-decoder_meta.py` was rewrote according to Graham's [KEGG-Decoder](https://github.com/bjtully/BioData/tree/master/KEGGDecoder). The ` KOALA_definitons.txt` was provided by Graham.** 
 * This module was constructed using manually curated "canonical" pathways described as part of KEGG Pathway Maps. For information regarding which KOs are used to predict a metabolic pathway see the KOALA_definitions.txt. 
 
 
